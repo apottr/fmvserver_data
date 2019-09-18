@@ -1,0 +1,3944 @@
+[
+    {
+        "_id": "589370a5d874730ab8587722",
+        "name": "Cheyenne",
+        "user": "alexc",
+        "description": "Esri",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true,
+            "priorityKlvPid": 1
+        },
+        "platforms": [
+            "C208B"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": false,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "enabled": false,
+                "cloned": false
+            },
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "plane.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-plane"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2012-09-19T20:40:44.105Z",
+        "endTime": "2012-09-19T20:42:08.999Z",
+        "duration": 84.89399999999999,
+        "thumbnail": "mission-sm.jpg",
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "preset": "faster",
+            "size": "50%",
+            "videoCodec": "libx264",
+            "fps": 0,
+            "videoBitrate": 0
+        },
+        "bookmarksCount": 1,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "589370e2d874730ab858772e",
+        "name": "Cheyenne_Handoff",
+        "user": "alexc",
+        "description": "Esri",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true,
+            "priorityKlvPid": 1
+        },
+        "platforms": [
+            "C208B"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": false,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "enabled": false,
+                "cloned": false
+            },
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "plane.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-plane"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2012-09-19T20:32:31.148Z",
+        "endTime": "2012-09-19T20:34:24.294Z",
+        "duration": 113.146,
+        "thumbnail": "mission-sm.jpg",
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "preset": "faster",
+            "size": "50%",
+            "videoCodec": "libx264",
+            "fps": 0,
+            "videoBitrate": 0
+        },
+        "bookmarksCount": 1,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5893710ed874730ab858773a",
+        "name": "CheyenneVAhospital",
+        "user": "alexc",
+        "description": "Esri",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "C208B"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "plane.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-plane"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2012-09-19T20:42:57.503Z",
+        "endTime": "2012-09-19T20:44:02.398Z",
+        "duration": 64.895,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "589371a2d874730ab8587753",
+        "name": "Inlet_area_St_Lucie_River",
+        "user": "alexc",
+        "description": "Florida",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "Default"
+        ],
+        "imageSourceSensors": [
+            "EOW_HD"
+        ],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2016-02-11T19:12:36.098Z",
+        "endTime": "2016-02-11T19:17:13.769Z",
+        "duration": 277.671,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 2,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "589371f5d874730ab858775f",
+        "name": "Locks_to_St_Lucie_inlet",
+        "user": "alexc",
+        "description": "Florida",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "Default"
+        ],
+        "imageSourceSensors": [
+            "EOW_HD"
+        ],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "enabled": false,
+                "cloned": false
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2016-02-11T18:53:26.927Z",
+        "endTime": "2016-02-11T19:08:13.034Z",
+        "duration": 886.107,
+        "thumbnail": "mission-sm.jpg",
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "preset": "faster",
+            "size": "50",
+            "videoBitrate": 1600,
+            "videoCodec": "libx264",
+            "fps": 0
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "58937342d874730ab8587784",
+        "name": "Video_Clip_1",
+        "user": "alexc",
+        "description": "Esri",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "C208B"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "plane.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-plane"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2012-09-19T20:48:26.345Z",
+        "endTime": "2012-09-19T20:50:59.745Z",
+        "duration": 153.4,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5893737fd874730ab8587790",
+        "name": "Video_Clip_2",
+        "user": "alexc",
+        "description": "Esri",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "C208B"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "plane.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-plane"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2012-09-19T20:59:42.059Z",
+        "endTime": "2012-09-19T21:01:46.066Z",
+        "duration": 124.00699999999999,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "58944076d874730ab8587ebb",
+        "name": "CAE_2014_03_15_0_001",
+        "user": "alexc",
+        "description": "CAE",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "MX"
+        ],
+        "imageSourceSensors": [
+            "EO"
+        ],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "enabled": false,
+                "cloned": false
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "plane.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-plane"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2014-03-15T09:30:19.617Z",
+        "endTime": "2014-03-15T09:40:19.583Z",
+        "duration": 599.966,
+        "thumbnail": "mission-sm.jpg",
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "preset": "faster",
+            "size": "50",
+            "videoBitrate": 1600,
+            "videoCodec": "libx264",
+            "fps": 0
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "bookmarksCount": 3,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "589440c5d874730ab8587ec8",
+        "name": "CAE_2014_03_15_0_003",
+        "user": "alexc",
+        "description": "CAE",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "MX"
+        ],
+        "imageSourceSensors": [
+            "EO"
+        ],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "enabled": false,
+                "cloned": false
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "plane.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-plane"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2014-03-15T09:50:19.716Z",
+        "endTime": "2014-03-15T10:00:19.583Z",
+        "duration": 599.867,
+        "thumbnail": "mission-sm.jpg",
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "preset": "faster",
+            "size": "50",
+            "videoBitrate": 1600,
+            "videoCodec": "libx264",
+            "fps": 0
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "58944479d874730ab8587efa",
+        "name": "CSA-in-Action",
+        "user": "alexc",
+        "description": "Florida",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "Default"
+        ],
+        "imageSourceSensors": [
+            "EOW_HD"
+        ],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2016-07-14T15:13:47.989Z",
+        "endTime": "2016-07-14T15:15:39.686Z",
+        "duration": 111.69699999999999,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "58944adfd874730ab8587f3c",
+        "name": "Algea-Locks-to-Oko",
+        "user": "alexc",
+        "description": "Florida",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "Default"
+        ],
+        "imageSourceSensors": [
+            "EOW_HD"
+        ],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2016-07-14T15:33:09.877Z",
+        "endTime": "2016-07-14T15:54:30.721Z",
+        "duration": 1280.844,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 1,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5894590ed874730ab8587fc7",
+        "name": "sunken_boat",
+        "user": "alexc",
+        "description": "Florida",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "Default"
+        ],
+        "imageSourceSensors": [
+            "EOW_HD",
+            "IR_HD_WIDE"
+        ],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2015-10-28T16:03:45.269Z",
+        "endTime": "2015-10-28T16:24:18.889Z",
+        "duration": 1233.62,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "589459cbd874730ab8587fda",
+        "name": "SharksOfBathtubBeach",
+        "user": "alexc",
+        "description": "Florida",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "Default"
+        ],
+        "imageSourceSensors": [
+            "EOW_HD"
+        ],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2015-10-14T21:28:25.006Z",
+        "endTime": "2015-10-14T21:32:55.829Z",
+        "duration": 270.823,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "58945a22d874730ab8587fe7",
+        "name": "GOPR1989_TT_Beach",
+        "user": "alexc",
+        "description": "CSA",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "DJI"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "quadcopter.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2014-10-07T17:49:30.000Z",
+        "endTime": "2014-10-07T17:55:44.000Z",
+        "duration": 374,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "58945a58d874730ab8587ff2",
+        "name": "GOPR1998_TT_Valley",
+        "user": "alexc",
+        "description": "CSA",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "DJI"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "quadcopter.png",
+            "weight": 2,
+            "color": "blue",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2014-10-08T21:12:22.050Z",
+        "endTime": "2014-10-08T21:20:40.050Z",
+        "duration": 498,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896ea909503780de8a99d66",
+        "name": "DV3_140612Z_001",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2012-10-03T04:06:00.215Z",
+        "endTime": "2012-10-03T04:15:00.558Z",
+        "duration": 540.343,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896eb299503780de8a99d7b",
+        "name": "DV3_141514Z",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2012-10-03T04:15:01.773Z",
+        "endTime": "2012-10-03T04:21:11.007Z",
+        "duration": 369.234,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 1,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896eb7e9503780de8a99d87",
+        "name": "DV3_142252Z",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2012-10-03T04:22:39.910Z",
+        "endTime": "2012-10-03T04:26:05.804Z",
+        "duration": 205.89399999999998,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896ebbb9503780de8a99d93",
+        "name": "DV3_142619Z_001",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2012-10-03T04:26:06.844Z",
+        "endTime": "2012-10-03T04:26:49.172Z",
+        "duration": 42.327999999999996,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896ec0d9503780de8a99da0",
+        "name": "DV3_142735Z_001",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2012-10-03T04:27:23.054Z",
+        "endTime": "2012-10-03T04:29:00.274Z",
+        "duration": 97.22,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896ec489503780de8a99dac",
+        "name": "DV3_142914Z_001",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true,
+            "priorityKlvPid": 1
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": false,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "enabled": false,
+                "cloned": false
+            },
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2012-10-03T04:29:02.570Z",
+        "endTime": "2012-10-03T04:29:49.450Z",
+        "duration": 46.879999999999995,
+        "thumbnail": "mission-sm.jpg",
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "preset": "faster",
+            "size": "50%",
+            "videoCodec": "libx264",
+            "fps": 0,
+            "videoBitrate": 0
+        },
+        "bookmarksCount": 2,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896ec8c9503780de8a99db8",
+        "name": "DV3_143003Z_001",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2012-10-03T04:29:51.266Z",
+        "endTime": "2012-10-03T04:30:31.207Z",
+        "duration": 39.940999999999995,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896ecc89503780de8a99dc4",
+        "name": "DV3_143045Z_001",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2012-10-03T04:30:32.631Z",
+        "endTime": "2012-10-03T04:31:05.828Z",
+        "duration": 33.196999999999996,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896edd19503780de8a99dd7",
+        "name": "DV3_143119Z_001",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2012-10-03T04:31:07.469Z",
+        "endTime": "2012-10-03T04:32:40.309Z",
+        "duration": 92.83999999999999,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 2,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896ee0b9503780de8a99de3",
+        "name": "DV3_143253Z_001",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2012-10-03T04:32:41.349Z",
+        "endTime": "2012-10-03T04:32:53.919Z",
+        "duration": 12.57,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896ee3e9503780de8a99def",
+        "name": "DV3_161649Z",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2013-01-19T05:16:45.498Z",
+        "endTime": "2013-01-19T06:13:45.393Z",
+        "duration": 3419.895,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896eeae9503780de8a99dfd",
+        "name": "DV3_171350Z",
+        "user": "alexc",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS_350"
+        ],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "enabled": false,
+                "cloned": false
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-sun-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2013-01-19T06:13:46.452Z",
+        "endTime": "2013-01-19T06:36:20.403Z",
+        "duration": 1353.951,
+        "thumbnail": "mission-sm.jpg",
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "preset": "faster",
+            "serverUrl": "alexc",
+            "size": "50",
+            "streamKey": "alexchern",
+            "videoBitrate": 1600,
+            "videoCodec": "libx264",
+            "fps": 0
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5896f3939503780de8a99e61",
+        "name": "ManateesNearSandbarV",
+        "user": "alexc",
+        "description": "Florida",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "Default"
+        ],
+        "imageSourceSensors": [
+            "EOW_HD"
+        ],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c"
+        ],
+        "__v": 1,
+        "startTime": "2015-10-14T21:33:20.541Z",
+        "endTime": "2015-10-14T21:37:15.032Z",
+        "duration": 234.49099999999999,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "589995c49503780de8a9b534",
+        "name": "GOPR7112",
+        "user": "alexc",
+        "description": "Florida",
+        "assets": {
+            "data": true,
+            "video": true,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 30,
+            "validateKlvChecksum": true
+        },
+        "platforms": [],
+        "imageSourceSensors": [],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "liveProps": {
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "autostart": {
+                "cloned": false,
+                "enabled": false
+            },
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            },
+            "frameSampling": 0,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "maxRate": 1600,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false,
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "transcode": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "quadcopter.png",
+            "weight": 2,
+            "color": "#0000ff",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677"
+        ],
+        "__v": 1,
+        "startTime": "2017-02-02T15:33:41.270Z",
+        "endTime": "2017-02-02T15:43:29.580Z",
+        "duration": 588.31,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 0,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "rtmpProps": {
+            "audioBitrate": 32,
+            "audioCodec": "aac",
+            "fps": 0,
+            "preset": "faster",
+            "size": "50%",
+            "videoBitrate": 0,
+            "videoCodec": "libx264"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    },
+    {
+        "_id": "5994dd74f57ba10dd8c4e413",
+        "name": "Lorem Ipsum",
+        "user": "superAdmin",
+        "description": "Australia",
+        "assets": {
+            "data": true,
+            "video": false,
+            "master": true
+        },
+        "state": "Ready",
+        "processingProps": {
+            "priorityKlvPid": 1,
+            "keepOriginal": false,
+            "transcodeEG0104": false,
+            "minKlvInterval": 200,
+            "validateKlvChecksum": true
+        },
+        "platforms": [
+            "AS350"
+        ],
+        "imageSourceSensors": [
+            "IR",
+            "EO"
+        ],
+        "transcoderProps": {
+            "fps": 0,
+            "audioBitrate": 0,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "ac3",
+            "videoCodec": "libx264",
+            "format": "mp4",
+            "preset": "faster"
+        },
+        "recorderProps": {
+            "segmentsToKeep": 10,
+            "diskSpaceQuota": 100,
+            "oldSegmentDeleteMode": "None",
+            "ingestOnComplete": true,
+            "transcodeOnComplete": false,
+            "recorded": 0,
+            "received": 0,
+            "state": "Stopped",
+            "minWriteSize": 8192,
+            "minFlushInterval": 1000,
+            "startIndex": 0,
+            "gopAligned": false,
+            "segmentDuration": 60,
+            "segmentation": false,
+            "timeout": 2000
+        },
+        "rtmpProps": {
+            "fps": 0,
+            "audioBitrate": 32,
+            "videoBitrate": 0,
+            "size": "50%",
+            "audioCodec": "aac",
+            "videoCodec": "libx264",
+            "preset": "faster"
+        },
+        "liveProps": {
+            "autostart": {
+                "enabled": false,
+                "cloned": false
+            },
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "frameSampling": 0,
+            "cacheType": "redis",
+            "quality": 50,
+            "imageFormat": "jpeg",
+            "keeplast": 10000,
+            "timeout": 2000,
+            "caching": 100,
+            "url": "udp://227.1.1.1:30120",
+            "awsProps": {
+                "sync": false,
+                "uploaded": 0
+            }
+        },
+        "dashProps": {
+            "presentations": [],
+            "duration": 10,
+            "ready": false
+        },
+        "hlsProps": {
+            "presentations": [],
+            "scaling": {
+                "height": -1,
+                "width": -1
+            },
+            "maxRate": 1600,
+            "transcode": false,
+            "listSize": 10,
+            "duration": 10,
+            "ready": false
+        },
+        "format": "File",
+        "live": false,
+        "securityClassification": "UNCLASSIFIED",
+        "presentation": {
+            "platform": "helicopter.png",
+            "weight": 2,
+            "color": "#0048ff",
+            "icon": "fa-picture-o"
+        },
+        "usergroups": [
+            "5893665ed874730ab8587677",
+            "58945c76d874730ab858801c",
+            "58da70ca697799045c46c75f",
+            "599052d3017b6f05c8b3afcb"
+        ],
+        "__v": 1,
+        "startTime": "2017-07-15T05:17:29.373Z",
+        "endTime": "2017-07-15T05:20:04.325Z",
+        "duration": 154.952,
+        "thumbnail": "mission-sm.jpg",
+        "bookmarksCount": 5,
+        "radarProps": {
+            "enabled": false,
+            "type": "MPR",
+            "url": "udp://234.5.6.7:6040"
+        },
+        "webVttProps": {
+            "generate": true,
+            "use": false
+        },
+        "aisProps": {
+            "enabled": false,
+            "type": "AIS",
+            "url": "udp://228.1.104.2:712"
+        },
+        "segmentsCount": 1
+    }
+]

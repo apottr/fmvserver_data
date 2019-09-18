@@ -1,0 +1,137 @@
+{
+    "presentation": {
+        "icon": "fa-plane",
+        "color": "blue",
+        "weight": 2,
+        "platform": "plane.png"
+    },
+    "hlsProps": {
+        "scaling": {
+            "width": -1,
+            "height": -1
+        },
+        "ready": false,
+        "duration": 10,
+        "listSize": 10,
+        "transcode": false,
+        "maxRate": 1600,
+        "presentations": []
+    },
+    "dashProps": {
+        "ready": false,
+        "duration": 10,
+        "presentations": []
+    },
+    "liveProps": {
+        "scaling": {
+            "width": -1,
+            "height": -1
+        },
+        "autostart": {
+            "enabled": false,
+            "cloned": false
+        },
+        "awsProps": {
+            "sync": false,
+            "uploaded": 0
+        },
+        "url": "udp://227.1.1.1:30120",
+        "httpStreamPort": 9000,
+        "wsStreamPort": 8090,
+        "caching": 100,
+        "timeout": 2000,
+        "keeplast": 10000,
+        "imageFormat": "jpeg",
+        "quality": 50,
+        "cacheType": "redis",
+        "frameSampling": 0,
+        "videoBitrate": 0
+    },
+    "radarProps": {
+        "type": "MPR",
+        "url": "udp://234.5.6.7:6040",
+        "enabled": false
+    },
+    "aisProps": {
+        "type": "AIS",
+        "url": "udp://228.1.104.2:712",
+        "enabled": false
+    },
+    "rtmpProps": {
+        "preset": "faster",
+        "videoCodec": "libx264",
+        "audioCodec": "aac",
+        "size": "50%",
+        "videoBitrate": 0,
+        "audioBitrate": 32,
+        "fps": 0
+    },
+    "recorderProps": {
+        "timeout": 2000,
+        "segmentation": false,
+        "segmentDuration": 60,
+        "gopAligned": false,
+        "startIndex": 0,
+        "minFlushInterval": 1000,
+        "minWriteSize": 8192,
+        "state": "Stopped",
+        "received": 0,
+        "recorded": 0,
+        "transcodeOnComplete": false,
+        "ingestOnComplete": false,
+        "oldSegmentDeleteMode": "None",
+        "diskSpaceQuota": 100,
+        "segmentsToKeep": 10
+    },
+    "transcoderProps": {
+        "preset": "faster",
+        "format": "mp4",
+        "videoCodec": "libx264",
+        "audioCodec": "ac3",
+        "size": "50%",
+        "videoBitrate": 0,
+        "audioBitrate": 0,
+        "fps": 0
+    },
+    "processingProps": {
+        "validateKlvChecksum": true,
+        "minKlvInterval": 30,
+        "transcodeEG0104": false,
+        "keepOriginal": false,
+        "priorityKlvPid": 1
+    },
+    "webVttProps": {
+        "generate": true,
+        "use": false
+    },
+    "assets": {
+        "master": true,
+        "video": true,
+        "data": true
+    },
+    "usergroups": [
+        "5893665ed874730ab8587677"
+    ],
+    "securityClassification": "UNCLASSIFIED",
+    "live": false,
+    "format": "File",
+    "imageSourceSensors": [],
+    "platforms": [
+        "C208B"
+    ],
+    "segments": [
+        "589370b0d874730ab8587725"
+    ],
+    "bookmarksCount": 1,
+    "state": "Ready",
+    "_id": "589370a5d874730ab8587722",
+    "name": "Cheyenne",
+    "user": "alexc",
+    "description": "Esri",
+    "__v": 1,
+    "startTime": "2012-09-19T20:40:44.105Z",
+    "endTime": "2012-09-19T20:42:08.999Z",
+    "duration": 84.89399999999999,
+    "thumbnail": "mission-sm.jpg",
+    "segmentsCount": 1
+}
